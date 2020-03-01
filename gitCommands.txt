@@ -1,0 +1,22 @@
+Git commands:
+
+mkdir xxx - nowy katalog, xxx - nazwa katalogu
+cd xxx - przejscie do katologu, xxx - nazwa katalogu
+open . - otwiera biezacy katalog
+
+git init - inicjalizacja repo
+git status - sprawdza status plikow
+git add xxx / . - dodaje plik do kolejki, xxx - nazwa pliku, . - dodaj wszytkie pliki w folderze do kolejki
+git commit -m "xxx"  - zatwierdza kolejke , -m  - wiadomosc, "xxx" - tekst wiadomosci
+git push origin xxx - wrzuca zatwierdzona kolejke do repo, xxx - nazwa brancha
+
+git pull origin xxx - pobiera zmiany z repo na kompa, xxx - nazwa brancha
+git clone https:Key - kopiuje repo do katalogu w ktorym jestes, https:Key - klucz https
+
+
+commands for branches:
+
+git branch xxx - tworzy nowego brancha, xxx - nazwa nowego brancha
+git checkout xxx - przechodzi na wybrana galaz, xxx - nazwa brancha
+git merch xxx - laczy/dodaje pliki brancha xxx do tego na ktorym jestes, xxx - nazwa brancha
+git branch -d xxx - kasuje brancha xxx, -d - komenda delete
