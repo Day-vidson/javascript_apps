@@ -7,23 +7,7 @@
             body { margin: 20px;}
             img { margin: 20px;}
         </style>
-        <script>
-            window.onload = init;
-            function init() {
-                var images = document.getElementsByTagName("img");
-                for(var i = 0; i < images.length; i++) {
-                    images[i].onclick = showAnswer;
-                }
-            }
-            function showAnswer(eventObj) {
-                var image = eventObj.target;
-                
-                var name = image.id;
-                name = name + ".jpg";
-                image.src = name;
-            }
-            
-        </script>
+        <script src="pictureGame.js"></script>
     </head>
     <body style="background-color: rgb(31, 31, 31); color: white">
         <img id="zero" src="zeroblur.jpg">
