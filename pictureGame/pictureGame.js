@@ -9,15 +9,16 @@ function init() {
 
 function showAnswer(eventObj) {
     var image = eventObj.target           
-    var name = image.id;
+    var name = image.id
     name = name + ".jpg"
     image.src = name
+
     
-    // setTimeout(reblur, 2000, image)
+    
+    setTimeout(function reblur() {
+        var name = image.id
+        name = name + "blur.jpg"
+        image.src = name
+    }, 2000)
 }
 
-function reblur(image) {
-    var name = image.id
-    name = name + "blur.jpg"
-    image.src = name
-}
