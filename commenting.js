@@ -3,4 +3,5 @@
 
 /* komentowanie wieloliniowe 
 var b = 3
+var c = 4
 */
