@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <title>Nie zmieniaj mojej wielkości, mam łaskotki</title>
+        <script>
+            function resize() {
+                var element = document.getElementById("display");
+                element.innerHTML = element.innerHTML + "To łaskocze!";
+            }
+        </script>
+        <style>
+            body {
+                background-color: rgb(40, 40, 40);
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <P id="display">
+            Cokolwiek robisz, nie zmieniaj welkości okna! Ostrzegam!
+        </P>
+        <div id="results">
+        </div>
+        <script>
+            window.onresize = resize;
+        </script>
+    </body>
+</html>
