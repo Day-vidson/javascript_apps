@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(31, 31, 31);
+    color: white;
+}
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.button{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    margin: 2px;
+    cursor: pointer;
+}
+
+.textview{
+    width: 203px;
+    height: 38px;
+    margin: 5px;
+    padding: 5px;
+    font-size: 25px;
+}
+
+.deletingButton{
+    width: 106px;
+    height: 50px;
+    font-size: 25px;
+    margin: 2px;
+    cursor: pointer;
+}
