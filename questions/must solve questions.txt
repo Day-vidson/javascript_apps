@@ -1,4 +1,4 @@
-1 - zrobic 1 char
+1 - done 1.js
 2 - done 2.js
 3 - 
 4 - 
