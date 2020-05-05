@@ -30,3 +30,6 @@ function init() {
     }
     year()
 }
+
+// biore reszte z dzielenia rok/4
+// jesli reszta == 0 to rok jest przestepny, jesli nie to dodaje tyle do roku aby byl podzielny przez 4
