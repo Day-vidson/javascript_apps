@@ -3,7 +3,9 @@
     padding: 0;
     background-color: rgb(31, 31, 31);
     color: white;
+    border: 1px solid rgb(255, 255, 255);
 }
+
 .main{
     position: absolute;
     top: 50%;
