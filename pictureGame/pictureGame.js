@@ -14,7 +14,6 @@ function showAnswer(eventObj) {
     image.src = name
 
     function reblur() {
-        // var image = eventObj.target
         var name = image.id
         name = name + "blur.jpg"
         image.src = name
