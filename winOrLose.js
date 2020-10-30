@@ -32,6 +32,6 @@ console.log(b)  //winner
 
 b = c
 console.log(b)   //loser
-console.log(c)   //loser
+console.log(c)   //loserr
 
 a()
