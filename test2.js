@@ -1,7 +1,7 @@
-var posts = {}
+var posts = []
 
 // Mam obiekt posts, w którym będą inne obiekty nazwa od id posta, które będą przechowywały swoją własną liczbę like'ów
-// posts = {
+// posts = [
 //     id1 {
 //         noOflikes: 1
 //         noOfDislikes: 2
@@ -10,19 +10,21 @@ var posts = {}
 //         oOflikes: 4
 //         noOfDislikes: 3
 //     }
-// }
+// ]
     
 
 // i chciałem później wyszukiwać id w całych posts, zeby znalezc wartosci kazdej reakcji dla kazdego posta
 // wyszukiwanie tylko raz dla kazdego posta, jak znajde id2 to od razu czytam wszystkie wartosci i wyswietlam w komponencie
 
 function addPost(id) {
-    myvar = id
-    posts.{myvar} = newItem(20)
+    posts[id] = newItem(20, 10)
 }
 
-function newItem(noOflikes) {
-    const post = {noOflikes: noOflikes}
+function newItem(noOflikes, noOfDislikes) {
+    const post = {
+        noOflikes: noOflikes,
+        noOfDislikes: noOfDislikes
+                }
     return post
 }
 
@@ -30,3 +32,8 @@ addPost("id1")
 addPost("id2")
 
 console.log(posts)
+
+
+if(posts["id1"]) {
+    console.log("id1 is in posts!")
+}
